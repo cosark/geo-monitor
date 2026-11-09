@@ -75,6 +75,10 @@ HTTP 会明文传输登录信息、会话、采集凭据及上报数据。HTTPS 
 
 首次启用从文件末尾开始，**不自动导入安装前历史日志**。普通浏览器请求不会计为 AI 爬虫；采集正常且没有匹配请求时显示“未观察到可识别的 AI 爬虫访问”。模拟 UA 只能验证分类链路，不能当作真实爬虫或官方核验结果。完整接入测试见 [1Panel 指引](docs/1panel-deployment.md)。
 
+## 一键部署
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Geo-Monitor/)
+
 ## 使用边界
 
 - 数据来自源站日志，可能不包含 CDN 缓存命中或边缘拦截请求；“未观察到”不代表“从未抓取”。
